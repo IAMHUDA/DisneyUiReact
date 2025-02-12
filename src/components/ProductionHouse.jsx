@@ -1,10 +1,10 @@
 import React from 'react'
-import disney from './../assets/Images/disney.png'
-import marvel from './../assets/Images/marvel.png'
-import nationalG from './../assets/Images/nationalG.png'
-import pixar from './../assets/Images/pixar.png'
-import starwar from './../assets/Images/starwar.png'
- 
+import disney from './../assets/images/disney.png'
+import marvel from './../assets/images/marvel.png'
+import nationalG from './../assets/images/nationalG.png'
+import pixar from './../assets/images/pixar.png'
+import starwar from './../assets/images/starwar.png'
+
 import starwarV from './../assets/Videos/star-wars.mp4'
 import disneyV from './../assets/Videos/disney.mp4'
 import marvelV from './../assets/Videos/marvel.mp4'
@@ -49,7 +49,7 @@ function ProductionHouse() {
             ease-in-out cursor-pointer relative shadow-xl 
             shadow-gray-800
             '>
-                 <video src={item.video} autoPlay loop playsInline muted 
+                 <video src={item.video} autoPlay loop playsinline muted 
             className='absolute z-0  top-0 rounded-md 
             opacity-0 hover:opacity-50'/> 
                 <img src={item.image} className='w-full z-[1] opacity-100' /> 
